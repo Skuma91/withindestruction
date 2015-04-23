@@ -1,0 +1,96 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+html {
+	font-family:raleway;
+	background:#000000;
+	color:#FFFFFF;
+}
+	
+h1{
+	text-align:center;
+}
+#container {
+   padding-left:15%;
+   padding-right:15%;
+   min-height:100%;
+   position:relative;
+}
+#header {
+   padding:10px;
+   
+}
+#content {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+#footer {
+
+   text-align: center;
+   width: 100%;
+
+}
+
+ .left {
+
+   background: black;
+
+ }
+
+ .centered {
+
+   background: black;
+   
+ }
+ .centered img {
+	margin-left: auto;
+    margin-right: auto  
+ }
+ .right {
+
+   background: black;
+ }
+
+ .left,
+ .centered,
+ .right {
+
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   text-align: left;
+   font-size: 12px;
+   padding: 0;
+   min-width: 300px;
+   width: 25%;
+
+ }
+
+.left {
+
+    text-align: left;
+
+  }
+  
+#navigation img {
+	 margin-left: -10%; 
+ }
+#navigation a {
+    font-size:14px;
+    padding-right:15px;
+    text-decoration:none;
+	color:#FFFFFF;
+}
+#navigation a:hover {
+    color:blue;
+}
+#navigation a:visited {
+	color:#FFFFFF;	
+	}
+	
+input, textarea { 
+	font-family:raleway;  
+	border: 1px solid gray; 
+    padding: 15px;
+    background:#4A3F3F;
+    margin: 0 0 10px 0;
+}
